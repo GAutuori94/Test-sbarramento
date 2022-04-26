@@ -8,7 +8,7 @@
 
 nav {
     height: 100vh;
-    width: 15%;
+    width: 10%;
     background-color: var(--side-bg);
     padding: 20px;
     display: flex;
@@ -18,9 +18,7 @@ nav {
 
 main {
  height: 100%;
- width: 65%;
- display: flex;
- flex-direction: column;
+ width: 70%;
 }
 
 aside{
@@ -36,23 +34,27 @@ body {
 }
 
 .top-nav {
-    height: 5%;
+    height: 50%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
 }
 
 span {
     background-color: var(--box-bg);
 }
 
-.middle-nav {
-    height: 30%;
+.two-bars {
+    height: 10%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
-.top-main {
-    height: 10%;
+.five-bars {
+    height: 40%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
